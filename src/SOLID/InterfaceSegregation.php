@@ -49,7 +49,6 @@ class RobotWorker implements Workable
 
 }
 
-
 class HumanWorker implements Workable, Sleepable
 {
 

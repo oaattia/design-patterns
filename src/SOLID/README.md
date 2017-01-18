@@ -30,5 +30,13 @@ We should implement the right abstraction to solve this problem
 It's state that any client shouldn't implement interface with methods that doesn't use .
 
 ```php
-php src/SOLID/InterfaceSegregation.php
+src/SOLID/InterfaceSegregation.php   // see this file for example
 ```
+
+### Dependency Inversion Principle
+
+First : High level module is the interface / abstraction that will be consumed directly by the presentation layer. Low level on the other hand are bunch of small modules (subsystems) help the high level do their work
+
+It state that 
+
+- High level module shouldn't depend on low level modules, and low level modules shouldn't depend high level modules, both should depends on abstraction . 
