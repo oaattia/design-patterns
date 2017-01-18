@@ -12,7 +12,8 @@
   "autoload": {
     "psr-4": {
       "Oaattia\\DesignPatterns\\": "src/"
-    }
+    },
+    "classmap": ["src/SOLID/"]
   },
   "autoload-dev": {
     "psr-4": {
