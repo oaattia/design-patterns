@@ -7,7 +7,7 @@ use Oaattia\DesignPatterns\Adapter\Client;
 use Oaattia\DesignPatterns\Adapter\Kindle;
 use Oaattia\DesignPatterns\Adapter\ReaderAdapter;
 
-class ClientTest extends \PHPUnit_Framework_TestCase
+class ClientAdapterTest extends \PHPUnit_Framework_TestCase
 {
 
     public function test_using_book_at_implement_to_reader_interface()
