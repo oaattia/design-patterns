@@ -1,0 +1,22 @@
+{
+    "name": "root/tests",
+    "authors": [
+        {
+            "name": "Osama Ahmed",
+            "email": "osama.ahmed@its.ws"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^5.7"
+    },
+  "autoload": {
+    "psr-4": {
+      "Oaattia\\DesignPatterns\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Oaattia\\DesignPatterns\\Tests\\": "tests/"
+    }
+  }
+}
